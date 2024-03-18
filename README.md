@@ -1,40 +1,108 @@
-!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
+  /* Styles for the header */
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Styles for the navigation menu */
+nav {
+  background-color: #444;
+  padding: 10px;
+  text-align: center;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+/* Styles for the main content area */
+.main-content {
+  padding: 20px;
+}
+
+/* Styles for the gym classes section */
+.gym-classes {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+}
+
+.gym-class {
+  background-color: #f4f4f4;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.gym-class h3 {
+  margin-top: 0;
+}
+
+.gym-class p {
+  margin-bottom: 0;
+}
+
+/* Styles for the footer */
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>My Gym</title>
+  <title>My Gym Website</title>
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
   <header>
-    <h1>My Gym</h1>
-    <nav>
-      <ul>
-        <li><a href="#about">About</a></li>
-        <li><a href="#services">Services</a></li>
-        <li><a href="#contact">Contact</a></li>
-      </ul>
-    </nav>
+    <h1>Welcome to My Gym</h1>
   </header>
-  <main>
-    <section id="about">
-      <h2>About</h2>
-      <p>Welcome to My Gym! We offer a variety of fitness classes and personal training services to help you achieve your fitness goals.</p>
-    </section>
-    <section id="services">
-      <h2>Services</h2>
-      <ul>
-        <li>Group Fitness Classes</li>
-        <li>Personal Training</li>
-        <li>Nutrition Counseling</li>
-      </ul>
-    </section>
-    <section id="contact">
-      <h2>Contact</h2>
-      <p>Email: info@mygym.com</p>
-      <p>Phone: (123) 456-7890</p>
-    </section>
-  </main>
+
+  <nav>
+    <ul>
+      <li><a href="#">Home</a></li>
+      <li><a href="#">Classes</a></li>
+      <li><a href="#">Membership</a></li>
+      <li><a href="#">Contact</a></li>
+    </ul>
+  </nav>
+
+  <div class="main-content">
+    <h2>Our Classes</h2>
+    <div class="gym-classes">
+      <div class="gym-class">
+        <h3>Yoga</h3>
+        <p>Improve flexibility and reduce stress</p>
+      </div>
+      <div class="gym-class">
+        <h3>Zumba</h3>
+        <p>Fun dance workout for all levels</p>
+      </div>
+      <div class="gym-class">
+        <h3>Strength Training</h3>
+        <p>Build muscle and increase metabolism</p>
+      </div>
+    </div>
+  </div>
+
   <footer>
-    <p>&copy; 2022 My Gym
+    <p>&copy; 2024 My Gym. All rights reserved.</p>
+  </footer>
+</body>
+</html>
