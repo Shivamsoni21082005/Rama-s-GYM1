@@ -7,53 +7,62 @@
   <title>My Gym</title>
   <style>
     body {
-      font-family: Arial, sans-serif;
-      margin: 0;
-      padding: 0;
-    }
+   body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+}
 
-    header {
-      background-color: #f1f1f1;
-      padding: 20px;
-      text-align: center;
-    }
+header {
+  background-color: #333;
+  color: white;
+  padding: 1rem;
+}
 
-    header h1 {
-      margin: 0;
-    }
+header h1 {
+  display: inline;
+  margin-right: 1rem;
+}
 
-    nav ul {
-      list-style-type: none;
-      margin: 0;
-      padding: 0;
-    }
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
 
-    nav li {
-      display: inline;
-      margin-right: 10px;
-    }
+nav li {
+  display: inline;
+  margin-right: 1rem;
+}
 
-    nav a {
-      text-decoration: none;
-      color: #333;
-    }
+nav a {
+  color: white;
+  text-decoration: none;
+}
 
-    nav a:hover {
-      color: #000;
-    }
+nav a:hover {
+  color: #ddd;
+}
 
-    main {
-      padding: 20px;
-    }
+main {
+  padding: 2rem;
+}
 
-    section {
-      margin-bottom: 20px;
-    }
+section {
+  margin-bottom: 2rem;
+}
 
-    footer {
-      background-color: #f1f1f1;
-      padding: 20px;
-      text-align: center;
+section h2 {
+  margin-bottom: 1rem;
+}
+
+footer {
+  background-color: #333;
+  color: white;
+  padding: 1rem;
+  text-align: center;
+};
     }
   </style>
 </head>
