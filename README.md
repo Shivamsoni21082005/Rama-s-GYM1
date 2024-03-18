@@ -43,12 +43,6 @@
   </footer>
 </body>
 </html>
-/* Styles for the header */
-header {
-  background-color: #333;
-  color: #fff;
-  padding: 20px;
-  text-align: center;
-}
+
 
 
